@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+#DIR="$HOME/.config/hypr"
+
+fuzzel --config=/home/inryatt/.config/hypr/fuzzel/fuzzel.ini

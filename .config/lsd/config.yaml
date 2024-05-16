@@ -1,0 +1,10 @@
+blocks:
+  - permission
+  - size
+  - date 
+  - name
+
+date: relative 
+
+color:
+  theme: custom
