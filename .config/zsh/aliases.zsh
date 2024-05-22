@@ -10,4 +10,4 @@ alias x="exit"
 alias vim="nvim"
 alias p3="python3"
 alias cfg='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias bonzo='~/.config/bonzomatic/run.sh'
