@@ -1,8 +1,8 @@
-#!/bin/zsh
-cd ~/.config/bonzomatic
+#!/bin/bash
+cd ~/.config/bonzomatic || (bonzomatic & exit)
 
-cat config.json
+backup_name=$(python3 run.py "$@")
 bonzomatic "config.json"
 
-./shader_backup.sh "shader.glsl"
-rm shader.glsl
+./shader_backup.sh "shader.glsl" "$backup_name"
+#rm "shader.glsl"
